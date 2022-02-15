@@ -18,4 +18,9 @@ export class SidebarComponent {
 
   constructor(private breakpointObserver: BreakpointObserver) {}
 
+  public isAuthenticated = true;
+  
+  public logout(): void {
+    // todo
+  }
 }
